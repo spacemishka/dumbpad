@@ -1,0 +1,43 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/outputs.h>
+
+
+#define DEFAULT 0
+#define LOWER 1
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            // --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+            // |   ESC   |    Q    |    W    |    E    |    R    |    T    |                                          |    Y    |    U    |    I    |    O    |    P    |    \    |
+            // |   TAB   |    A    |    S    |    D    |    F    |    G    |                                          |    H    |    J    |    K    |    L    |    ;    |    '    |
+            // |  SHIFT  |    Z    |    X    |    C    |    V    |    B    | CTRL+A  | CTRL+C  |  |  CTRL+V |  CTRL+X |    N    |    M    |    ,    |    .    |    /    |  R CTRL |
+            //                               |   GUI   |   DEL   | RETURN  |  SPACE  | ESCAPE  |  |  RETURN |  SPACE  |   TAB   |   BSPC  |  R ALT  |
+
+            bindings = <
+&kp NUMBER_7     &kp NUMBER_8 &kp NUMBER_9  &kp A
+&kp NUMBER_4      &kp NUMBER_5  &kp NUMBER_6   &kp B
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp C
+&kp NUMBER_0 &kp Z  &kp S  &kp D
+            >;
+        };
+
+        lower_layer {
+            // --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+            // |   ESC   |    Q    |    W    |    E    |    R    |    T    |                                          |    Y    |    U    |    I    |    O    |    P    |    \    |
+            // |   TAB   |    A    |    S    |    D    |    F    |    G    |                                          |    H    |    J    |    K    |    L    |    ;    |    '    |
+            // |  SHIFT  |    Z    |    X    |    C    |    V    |    B    | CTRL+A  | CTRL+C  |  |  CTRL+V |  CTRL+X |    N    |    M    |    ,    |    .    |    /    |  R CTRL |
+            //                               |   GUI   |   DEL   | RETURN  |  SPACE  | ESCAPE  |  |  RETURN |  SPACE  |   TAB   |   BSPC  |  R ALT  |
+
+            bindings = <
+&kp NUMBER_7     &kp NUMBER_8 &kp NUMBER_9  &kp A
+&kp NUMBER_4      &kp NUMBER_5  &kp NUMBER_6   &kp B
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp C
+&kp NUMBER_0 &kp Z  &kp S  &kp D
+            >;
+        };
+    };

@@ -40,13 +40,4 @@
 &kp NUMBER_0 &kp Z  &kp S  &kp D
             >;
         };
-
-        layer_2 {
-            bindings = <
-&kp NUMBER_7     &kp NUMBER_8 &kp NUMBER_9  &kp A
-&kp NUMBER_4      &kp NUMBER_5  &kp NUMBER_6   &kp B
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp C
-&kp NUMBER_0 &kp Z  &kp S  &kp D
-            >;
-        };
     };

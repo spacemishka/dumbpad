@@ -1,9 +1,9 @@
-if SHIELD_ZHERKIN
+if SHIELD_DUMBPAD
 
 config ZMK_USB
 	default n
 
-#config ZMK_ZHERKIN
+#config ZMK_DUMBPAD
 #    default "Dumbpad"
 config ZMK_KEYBOARD_NAME
     default "Dumbpad"

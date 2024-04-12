@@ -2,7 +2,7 @@ file_format: "1"
 id: dumbpad
 name: DUMBPAD
 type: shield
-url: https://github.com/spacemishka/zherkin
+url: https://github.com/spacemishka/dumbpad
 requires: [pro_micro]
 features:
   - keys

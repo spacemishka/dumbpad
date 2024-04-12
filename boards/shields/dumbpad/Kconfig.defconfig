@@ -6,5 +6,5 @@ config ZMK_USB
 #config ZMK_ZHERKIN
 #    default "Dumbpad"
 config ZMK_KEYBOARD_NAME
-    default "dumbpad"
+    default "Dumbpad"
 endif
